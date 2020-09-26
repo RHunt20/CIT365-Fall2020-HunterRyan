@@ -38,7 +38,7 @@
             this.sum = new System.Windows.Forms.NumericUpDown();
             this.difference = new System.Windows.Forms.NumericUpDown();
             this.product = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.quotient = new System.Windows.Forms.NumericUpDown();
             this.minusLeftLabel = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.minusRightLabel = new System.Windows.Forms.Label();
@@ -56,7 +56,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.sum)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quotient)).BeginInit();
             this.SuspendLayout();
             // 
             // timeLabel
@@ -146,14 +146,14 @@
             this.product.TabIndex = 4;
             this.product.Enter += new System.EventHandler(this.answer_Enter);
             // 
-            // numericUpDown3
+            // quotient
             // 
-            this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(328, 234);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(100, 35);
-            this.numericUpDown3.TabIndex = 5;
-            this.numericUpDown3.Enter += new System.EventHandler(this.answer_Enter);
+            this.quotient.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quotient.Location = new System.Drawing.Point(328, 234);
+            this.quotient.Name = "quotient";
+            this.quotient.Size = new System.Drawing.Size(100, 35);
+            this.quotient.TabIndex = 5;
+            this.quotient.Enter += new System.EventHandler(this.answer_Enter);
             // 
             // minusLeftLabel
             // 
@@ -310,7 +310,7 @@
             this.Controls.Add(this.minusRightLabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.minusLeftLabel);
-            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.quotient);
             this.Controls.Add(this.product);
             this.Controls.Add(this.difference);
             this.Controls.Add(this.sum);
@@ -327,7 +327,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.sum)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.difference)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.product)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.quotient)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -344,7 +344,7 @@
         private System.Windows.Forms.NumericUpDown sum;
         private System.Windows.Forms.NumericUpDown difference;
         private System.Windows.Forms.NumericUpDown product;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown quotient;
         private System.Windows.Forms.Label minusLeftLabel;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label minusRightLabel;

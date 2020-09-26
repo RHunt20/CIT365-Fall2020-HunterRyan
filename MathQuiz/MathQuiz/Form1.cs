@@ -40,6 +40,8 @@ namespace MathQuiz
         // remaining time.
         int timeLeft;
 
+        // get Date object
+        DateTime dateTime = DateTime.Now;
 
         public Form1()
         {
@@ -171,6 +173,11 @@ namespace MathQuiz
                 int lengthOfAnswer = answerBox.Value.ToString().Length;
                 answerBox.Select(0, lengthOfAnswer);
             }
+        }
+
+        private void form1_Load(object sender, EventArgs e)
+        {
+            currentDate.Text = dateTime.ToString("dd MMMM yyyy");
         }
     }
 }
